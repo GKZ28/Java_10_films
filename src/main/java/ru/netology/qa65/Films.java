@@ -4,12 +4,15 @@ public class Films {
 
     private String title;
 
-    public Films (String title) {
+    public Films() {
+    }
+
+    public Films(String title) {
         this.title = title;
     }
 
     public String getTitle() {
         return title;
     }
-
 }
+
