@@ -1,7 +1,7 @@
 package ru.netology.qa65;
 
 public class filmsManager {
-   // private Films[] films = new Films[0];
+    // private Films[] films = new Films[0];
     private Films[] films;
     private int limit;
 
@@ -10,7 +10,7 @@ public class filmsManager {
         this.limit = 5;
     }
 
-    public filmsManager (int limit) {
+    public filmsManager(int limit) {
         this.films = new Films[0];
         this.limit = limit;
     }
